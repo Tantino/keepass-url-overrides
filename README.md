@@ -33,6 +33,9 @@ You need to install `sshpass` package.
 ```
 cmd://"C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Ssms.exe" -S {USERNAME} -D {TITLE} -E"
 ```
+```
+cmd://ssh {USERNAME}@{S:HOST} -p {S:PORT}
+```
 
 * **Command:** Login user sql server
 ```
