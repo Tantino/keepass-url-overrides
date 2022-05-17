@@ -17,6 +17,9 @@ cmd://"{ENV_PROGRAMFILES_X86}\PuTTY\putty.exe" -ssh "{USERNAME}@{URL:HOST}" -P {
 ```
 cmd://xterm -e sshpass -p {PASSWORD} ssh -o StrictHostKeyChecking=no {USERNAME}@{BASE:RMVSCM}
 ```
+```
+cmd://ssh {USERNAME}@{S:HOST} -p {S:PORT}
+```
 
   More secure command:
 ```
